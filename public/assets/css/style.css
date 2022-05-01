@@ -1,0 +1,13 @@
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-image: url("./public/assets/css/");
+}
