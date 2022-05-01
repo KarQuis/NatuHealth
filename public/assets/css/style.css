@@ -6,8 +6,42 @@ body * {
 
 body {
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    padding: 1em;
+}
+
+nav div a {
+    margin: 0 1em 0 1em;
+    display: inline;
 }
 
 header {
-    background-image: url("./public/assets/css/");
+    background-image: url("/public/assets/img/Header.jpg");
+    height: 13em;
+}
+
+#NatuHealth {
+    display: inline-flex;
+    color: rgb(202, 118, 50);
+}
+
+#NatuHealth img, #NatuHealth h1 {
+    display: inline;
+    margin: 0 1em 0 0;
+}
+
+#saludo {
+    margin: 3em;
+}
+
+#nuestrosProductos {
+    margin: 3rem;
+}
+
+.caracteristicas {
+    display: inline-block;
+    margin: 2rem;
 }
