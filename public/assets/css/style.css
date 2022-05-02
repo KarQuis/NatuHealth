@@ -12,24 +12,28 @@ body {
 
 nav {
     padding: 1em;
-    background-color: rgb(243, 229, 121);
+    /* background-color: rgb(243, 229, 121); */
     /* background-color:lightgreen; */
-    /* background: linear-gradient(to top,  rgb(204, 231, 247), rgb(255, 229, 196)); */
+    background: linear-gradient(to top, rgb(151, 242, 67), rgb(245, 223, 60));
 }
 
 nav div a {
     margin: 0 1em 0 1em;
     display: inline;
+    color: black;
+    text-decoration: none;
 }
 
 header {
     background-image: url("/public/assets/img/Header.jpg");
-    height: 13em;
+    height: 15em;
 }
 
 #NatuHealth {
     display: inline-flex;
-    color: rgb(202, 118, 50);
+    color: rgb(205, 109, 31);
+    margin: 1em;
+    font-size:x-large;
 }
 
 #NatuHealth img, #NatuHealth h1 {
@@ -38,7 +42,7 @@ header {
 }
 
 #saludo {
-    margin: 3em;
+    margin: 1em;
 }
 
 #nuestrosProductos {
@@ -65,5 +69,21 @@ header {
 }
 
 footer {
-    background-color:rgb(243, 229, 121);
+    /* background-color:rgb(243, 229, 121); */
+    background: linear-gradient(to top,  rgb(151, 242, 67), rgb(245, 223, 60));
+}
+
+footer h1 {
+    padding: 2rem 0 3rem 0;
+}
+
+#ubicacion {
+    display: inline-flex;
+    margin: 0 0 2rem 0;
+}
+
+.informacion {
+    display: block;
+    text-align: left;
+    margin: 2rem 7rem 0 5rem;
 }
