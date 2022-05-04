@@ -9,9 +9,8 @@ body {
 
 nav {
     padding: 1em;
-    /* background-color: rgb(243, 229, 121); */
-    /* background-color:lightgreen; */
     background: linear-gradient(to top, rgb(151, 242, 67), rgb(245, 223, 60));
+    width: 100%;
 }
 
 nav div a {
@@ -24,6 +23,7 @@ nav div a {
 header {
     background-image: url("/public/assets/img/Header.jpg");
     height: 18em;
+    width: 100%;
 }
 
 .NatuHealth {
@@ -53,6 +53,7 @@ header {
 
 #productosDestacados {
     background-image: url("/public/assets/img/ProductosDestacados.jpg");
+    width: 100%;
 }
 
 .destacados{
@@ -102,6 +103,7 @@ header {
 
 footer {
     background: linear-gradient(to top,  rgb(151, 242, 67), rgb(245, 223, 60));
+    width: 100%;
 }
 
 #rrss div {
