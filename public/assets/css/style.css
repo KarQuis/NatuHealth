@@ -52,8 +52,7 @@ header {
 }
 
 #productosDestacados {
-    background-image: url("/public/assets/img/ProductosDestacados.JPG");
-    background-size: cover;
+    background-image: url("../public/assets/img/ProductosDestacados.jpg");
     width: 100%;
 }
 
