@@ -21,8 +21,8 @@ nav div a {
 }
 
 header {
-    background-image: url("/public/assets/img/Header.jpg");
-    height: 18em;
+    background: url("/public/assets/img/Header.jpg");
+    height: auto;
     width: 100%;
 }
 
