@@ -10,6 +10,8 @@ body {
 nav {
     padding: 1em;
     background: linear-gradient(to top, rgb(151, 242, 67), rgb(245, 223, 60));
+    content: 100%;
+    height: 100%;
     width: 100%;
 }
 
@@ -23,6 +25,8 @@ nav div a {
 header {
     /* background: url("/public/assets/img/Header.jpg"); */
     height: auto;
+    content: 100%;
+    height: 100%;
     width: 100%;
 }
 
@@ -30,16 +34,20 @@ header {
     display: inline-flex;
     color: rgb(205, 109, 31);
     margin: 1em;
-    font-size:xx-large;
 }
 
 .NatuHealth img, .NatuHealth h1 {
-    display: inline;
+    display: flex;
     margin: 0 1em 0 0;
+    font-size: 3rem;
+
 }
 
 #nuestrosProductos {
     margin: 2rem;
+    content: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 #nuestrosProductos h1, #productosDestacados h1, #encuentranos h1{
@@ -48,12 +56,15 @@ header {
 
 .caracteristicas {
     display: inline-block;
-    margin: 4rem;
+    /* margin: 4rem; */
 }
 
 #productosDestacados {
     /* background-image: url("/public/assets/img/ProductosDestacados.jpg"); */
+    content: 100%;
+    height: 100%;
     width: 100%;
+    align-content: center;
 }
 
 .destacados{
@@ -103,6 +114,8 @@ header {
 
 footer {
     background: linear-gradient(to top,  rgb(151, 242, 67), rgb(245, 223, 60));
+    content: 100%;
+    height: 100%;
     width: 100%;
 }
 
