@@ -21,7 +21,7 @@ nav div a {
 }
 
 header {
-    background: url("/public/assets/img/Header.jpg");
+    /* background: url("/public/assets/img/Header.jpg"); */
     height: auto;
     width: 100%;
 }
