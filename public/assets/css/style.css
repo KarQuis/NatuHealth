@@ -52,7 +52,7 @@ header {
 }
 
 #productosDestacados {
-    background-image: url("/public/assets/img/ProductosDestacados.jpg");
+    /* background-image: url("/public/assets/img/ProductosDestacados.jpg"); */
     width: 100%;
 }
 
@@ -86,14 +86,14 @@ header {
 #datoUbicacion {
     margin: 0 5rem 1rem 5rem;
     border: 1rem solid;
-    border-image: url("/public/assets/img/BordeUbicacion.jpg") 30;
+    /* border-image: url("/public/assets/img/BordeUbicacion.jpg") 30; */
 }
 
 #informacionAdicional {
     margin: 0 5rem 1rem 5rem;
     text-align: left;
     border: 1rem solid;
-    border-image: url("/public/assets/img/BordeUbicacion.jpg") 30;
+    /* border-image: url("/public/assets/img/BordeUbicacion.jpg") 30; */
 }
 
 #informacionAdicional p {
