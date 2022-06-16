@@ -8,7 +8,7 @@ body {
 }
 
 nav{
-    background: linear-gradient(to top, rgb(151, 242, 67), rgb(245, 223, 60));
+    background: rgb(217, 215, 241);
     width: 100%;
     padding: 1rem;
     display: grid;
@@ -130,7 +130,7 @@ header {
 }
 
 footer {
-    background: linear-gradient(to top,  rgb(151, 242, 67), rgb(245, 223, 60));
+    background: rgb(217, 215, 241);
     content: 100%;
     height: 100%;
     width: 100%;
