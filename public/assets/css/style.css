@@ -7,12 +7,20 @@ body {
     width: 100%;
 }
 
+h1, h2 {
+    font-size: xx-large;
+}
+
 nav{
     background: rgb(217, 215, 241);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     width: 100%;
+}
+
+#navbarMenu {
+    display: none;
 }
 
 #navbar{
@@ -38,7 +46,7 @@ header {
 .NatuHealth {
     color: rgb(205, 109, 31);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
     gap: 1rem;
 }
@@ -46,12 +54,14 @@ header {
 .NatuHealth img {
     justify-self: end;
     align-self: center;
+    grid-column: 2/3;
 }
 
 .NatuHealth h1 {
     justify-self: start;
     align-self: center;
-    font-size: 3rem;
+    font-size: 4rem;
+    grid-column: 3/6;
 }
 
 #saludo {
@@ -101,7 +111,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    height: 30rem;
+    height: 25rem;
     width: 100%;
 }
 
@@ -156,11 +166,19 @@ footer {
     color: black;
 }
 
-@media screen and (max-width: 768px) {    
+@media screen and (max-width: 768px) {
+    #navbarMenu {
+        display:contents;
+    }
+    
     #navbar {
+        display: none;
+    }
+
+    /* #navbar {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
-    }
+    } */
 
     header {
         grid-template-columns: 1fr;
